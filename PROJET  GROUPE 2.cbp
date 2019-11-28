@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="  PROJET GROUPE 2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/PASCAL GROUPE 2 PROJET" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/PASCAL GROUPE 2 PROJET" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="ceer_parc_voiture.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="couleur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="etat_parc_voiture.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="etat_voiture.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonction.h" />
+		<Unit filename="louer_voiture.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="presentation_groupe.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="retour_au_menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="retour_voiture.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sauvegader_etat_de_parc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="structures.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
