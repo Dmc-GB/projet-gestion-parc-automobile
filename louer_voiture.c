@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <windows.h> //Gère la couleur
+#include <windows.h> //GÃ¨re la couleur
 #include "fonction.h"
 #include "structures.h"
 
@@ -70,7 +70,7 @@ void louer_voiture()
            else if(test==0 && test2==0)
            {
                Color(12,0);
-               printf("\n\tDesoler cette voiture est deja en cours de location \n\n");
+               printf("\n\tDesole cette voiture est deja en cours de location \n\n");
                break;
            }
     }
@@ -79,7 +79,7 @@ void louer_voiture()
                 {
                    Color(12,0);
                    if(test!=0)
-                   printf("\n\tDesoler cette voiture n'existe pas reesayez avec un matricule correct \n\n");
+                   printf("\n\tDesole cette voiture n'existe pas reesayez avec un matricule correct \n\n");
                    break;
                 }
     retour_au_menu();
